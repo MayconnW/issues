@@ -16,6 +16,7 @@ It seems we are getting an error with how libtess.js has been compiled
 
 Screenshot:
 ![enter image description here](https://i.ibb.co/rMmm0g7/i-Screen-Shoter-2022-12-12-18-03-15-805.jpg)
+
 Code block:
 
     112) [Chrome 108.0] Acceptance | Issues New Page: it defaults to location required request types and does not show request types that do not require a location
@@ -23,6 +24,3 @@ Code block:
     RuntimeError: abort(CompileError: WebAssembly.instantiate(): expected maximum size @+302). Build with -s ASSERTIONS=1 for more info.
     at Q (webpack://_ember_auto_import_/./node_modules/@arcgis/core/chunks/libtess.js?:8:4180)
     at eval (webpack://ember_auto_import././node _modules/@arcgis/core/chunks/libtess.js?:8:5210)
-
-
-
