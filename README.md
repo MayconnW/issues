@@ -12,6 +12,12 @@ It seems we are getting an error with how libtess.js has been compiled
 ## The test
 After all set, in our acceptance test, we need to interact with the map. For example we use the native search bar to search address. We are able to have everything working, but there is one error that shows everytime and we can't find a solution. 
 ![enter image description here](https://i.ibb.co/rMmm0g7/i-Screen-Shoter-2022-12-12-18-03-15-805.jpg)
-![enter image description here](https://i.ibb.co/80LMrVP/i-Screen-Shoter-2022-12-12-18-02-46-878.jpg)
+
+    112) [Chrome 108.0] Acceptance | Issues New Page: it defaults to location required request types and does not show request types that do not require a location
+    global failure: RuntimeError: abort (CompileError: WebAssembly.instantiate(): expected maximum size @+302). Build with -s ASSERTIONS=1 for more info
+    RuntimeError: abort(CompileError: WebAssembly.instantiate(): expected maximum size @+302). Build with -s ASSERTIONS=1 for more info.
+    at Q (webpack://_ember_auto_import_/./node_modules/@arcgis/core/chunks/libtess.js?:8:4180)
+    at eval (webpack://ember_auto_import././node _modules/@arcgis/core/chunks/libtess.js?:8:5210)
+
 We tried to run the test pointing to the api instead of using the assets locally, just to see if it will work, but still having the same issue. 
 
