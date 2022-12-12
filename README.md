@@ -1,6 +1,6 @@
 # Error when trying to render the map  in test
 
-In this doc I'll show how we are trying to write a test, and the errors we are getting when we do
+It seems we are getting an error with how libtess.js has been compiled
 
 ## Our environment
 
